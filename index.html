@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5'
+    name='viewport' />
+<meta content='IE=edge' http-equiv='X-UA-Compatible' />
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+
+<!-- stylesheet -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<head>
+    <title>LAURA &#10084;</title>
+    <meta name="description" content="HTML Feeldream Repl Co">
+</head>
+
+<body>
+
+    <div class="overlay">
+        <div class="loading-message">HAI LAURA &#10084;<br>Tunggu dulu ya..</div>
+    </div>
+
+    <audio src="audio/seandainya.mp3" id="linkmp3" class="sembunyi"></audio>
+
+    <section class="first">
+        <div class="wp"><img src="img/background.jpg" id="imgsatu"></div>
+        <img src="img/bunga.gif" alt="" id="first_stiker" class="stiker fade-in">
+        <h1 class="title">HAI LAURA &#10084;
+            <br> Atau Biasa Aku Panggil Mba-Mba Sepuh
+        </h1>
+        <p class="flip">Aku Mau Jujur</p>
+        <p class="slide-up"><i>Scroll ke bawah RA !!!</i></p>
+    </section>
+
+    <section>
+        <div class="wp"><img src="img/background.jpg" alt="" id="imgdua"></div>
+        <img src="img/pusn.gif" class="stiker fade-in">
+        <h2 class="title">Mungkin Kamu Udah Tau Ra....</h2>
+        <p class="slide-right">Kalo Aku Itu Suka Sama <b class="lingkaran">KAMU</b> &#10084;</p>
+    </section>
+
+    <section>
+        <div class="wp"><img src="img/background.jpg" alt="" id="imgtiga"></div>
+        <p id="teksnimasi">Kalo kamu tanya kenapa aku bisa suka sama kamu, itu karena pertama kali aku liat kamu di IT
+            Day.
+            <br>Aku jadi punya rasa yang aku sendiri gatau itu apa, yang aku tau aku ingin memiliki dan membahagiakan
+            kamu.
+            <br><br><b><i>Kamu Tau?</i></b>
+            <br>Ga ada yang bisa bikin aku semangat buat ke kampus selain kamu.
+            <br>Dan setelah mengenal kamu, aku ingin membuktikan kekamu kalo aku bukan seperti masalalu kamu.
+            <br>Dan akan aku buktikan semua ucapan dan janji aku ke kamu :)
+        </p>
+    </section>
+
+    <section>
+        <div class="wp"><img id="imgempat" src="IMG/background.jpg" /></div>
+        <img class="stiker fade-in" src="img/bunga.gif" />
+        <h2 class="title"><i>Intinya,</i></h2>
+        <p class="slide-right"><b>Kamu Mau Gak<br>Jadi Pacar Aku?</b></p>
+        <div id="Tombol">
+            <a id="By" onClick="fungsimau()">Mau</a>
+            <a id="Bn" onClick="fungsigamau()">Gamau</a>
+        </div>
+    </section>
+
+    <section id="iniakhir">
+        <div class="wp" id="wpakhir"><img src="IMG/background.jpg" /></div>
+        <img id="stikerakhir" class="stiker fade-in" src="img/g5.gif" />
+        <img id="stikerakhir2" style="display:none" src="img/emawh.gif" />
+        <h1 id="judulakhir"></h1>
+        <p id="kalimatakhir"></p>
+        <p id="palingakhir"></p>
+    </section>
+
+    <div id="initom" class="menu">
+        <a class='tombol' onclick="tes()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+            </svg>
+        </a>
+    </div>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
